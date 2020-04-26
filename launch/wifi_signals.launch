@@ -1,0 +1,6 @@
+<launch>
+
+	<!--<node pkg="wifi_mapping" type="wifi_signals.py" name="wifi_signals" output="screen" />-->
+	<node pkg="wifi_mapping" type="wifi_signals_srv.py" name="wifi_signals_srv" output="screen"/>
+
+</launch>
